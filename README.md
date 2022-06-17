@@ -17,6 +17,18 @@ The schematic offers the opportunity to assemble the pcb in three ways:
 3. CV mode with TS431
 4. Combined high current CC and CV mode
 
-![Buck_Schematic](http://url/to/img.png)
+Schematics:
+1. Infineon typical application with low side shunt
+![Buck_Schematic_default](https://github.com/pellematrose/Buck_IRS25411/blob/main/assembly_normal.png)
 
-In this repository you find KiCad files, gerber files, schematic as pdf, an excel file with calculations.
+2. High current CC mode with the op-amp
+![Buck_Schematic_cc](https://github.com/pellematrose/Buck_IRS25411/blob/main/assembly_cc.png)
+
+3. CV mode with TS431
+![Buck_Schematic_cc](https://github.com/pellematrose/Buck_IRS25411/blob/main/assembly_cv.png)
+
+4. Combined high current CC and CV mode
+![Buck_Schematic_cc](https://github.com/pellematrose/Buck_IRS25411/blob/main/assembly_cv_cc.png)
+
+To make it easy to adjust some component values the excel file may help you understand how the values are calculated.
+The buck is tested in Combined mode with the values in the excel file.
