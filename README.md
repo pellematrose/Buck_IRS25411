@@ -1,5 +1,7 @@
 # Buck_IRS25411
 High Voltage Buck featuring IRS25411 LED driver.
+![Buck](https://github.com/pellematrose/Buck_IRS25411/blob/main/Buck.png)
+The pinheaders offers the opportunity to use it as module on a other PCB.
 
 The IRS25411 is a hysteretic Buck driver for LED applications.
 Hysteretic means that there is no fixed frequency but it switches with over and undershooting the threshold level of the feedback pin with the current ripple.
