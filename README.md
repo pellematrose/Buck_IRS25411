@@ -42,3 +42,8 @@ Furthermore, here some links to usefull sites about mosfet losses:
 [Infineon MOSFET Losses Appnote](https://community.infineon.com/gfawx74859/attachments/gfawx74859/MOSFET/285/4/MOSFET%20Power%20Losses%20Calculation%20Using%20the%20Data-Sheet%20Parameters.pdf)  
 [Youtube with Dr. K](https://www.youtube.com/watch?v=RViwOc4g-gw)</p>
 
+The Buck design is only tested to 30V input voltage.
+If you want to make a real high voltage buck you need to recalculate some components:
+- R1 to limit the input current to the driver IC
+- Q1, Q2 MOSFET Vds rating
+- L1 Inductor
