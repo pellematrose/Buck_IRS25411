@@ -39,8 +39,6 @@ I got the main inspiration from various application notes about the buck convert
 [Buck converter design](https://www.mouser.de/pdfdocs/BuckConverterDesignNote.pdf)
 
 Furthermore, here some links to usefull sites about mosfet losses:  
-
-[Infineon MOSFET Losses Appnote](https://community.infineon.com/gfawx74859/attachments/gfawx74859/MOSFET/285/4/MOSFET%20Power%20Losses%20Calculation%20Using%20the%20Data-Sheet%20Parameters.pdf)
-
+[Infineon MOSFET Losses Appnote](https://community.infineon.com/gfawx74859/attachments/gfawx74859/MOSFET/285/4/MOSFET%20Power%20Losses%20Calculation%20Using%20the%20Data-Sheet%20Parameters.pdf)  
 [Youtube with Dr. K](https://www.youtube.com/watch?v=RViwOc4g-gw)</p>
 
