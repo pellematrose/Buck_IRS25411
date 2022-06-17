@@ -37,6 +37,7 @@ I got the main inspiration from various application notes about the buck convert
 ![TI CC CV converter](https://www.ti.com/lit/an/snva829/snva829.pdf)  
 ![Electronics Stackexchange](https://electronics.stackexchange.com/questions/458384/cc-cv-buck-controller)  
 ![Buck converter design](https://www.mouser.de/pdfdocs/BuckConverterDesignNote.pdf)
+
 Furthermore, here some links to usefull sites about mosfet losses:  
 
 ![Infineon MOSFET Losses Appnote](https://community.infineon.com/gfawx74859/attachments/gfawx74859/MOSFET/285/4/MOSFET%20Power%20Losses%20Calculation%20Using%20the%20Data-Sheet%20Parameters.pdf)
