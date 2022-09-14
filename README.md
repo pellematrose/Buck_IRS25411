@@ -14,10 +14,13 @@ In parallel operation both CC and CV regulators are active. When the maximum cur
 When the maximum current is not flowing the voltage is clipped at the voltage set and the buck is working in CV mode.
 
 The schematic offers the opportunity to assemble the pcb in three ways:
-1. Infineon typical application with low side shunt
+1. Infineon typical application with low side shunt (tested and works)
 2. High current CC mode with the op-amp
-3. CV mode with TS431
+3. CV mode with TS431 (tested and works)
 4. Combined high current CC and CV mode
+
+The design contains a routing mistake:
+The connection between VS and Inductor is missing.
 
 Schematics:
 1. Infineon typical application with low side shunt
@@ -33,7 +36,6 @@ Schematics:
 ![Buck_Schematic_cc](https://github.com/pellematrose/Buck_IRS25411/blob/main/assembly_cv_cc.png)
 
 To make it easy to adjust some component values the excel file may help you understand how the values are calculated.
-The buck is tested in Combined mode with the values in the excel file.
 
 I got the main inspiration from various application notes about the buck converter.  
 [TI CC CV converter](https://www.ti.com/lit/an/snva829/snva829.pdf)  
