@@ -51,3 +51,4 @@ If you want to make a real high voltage buck you need to recalculate some compon
 - R1 to limit the input current to the driver IC
 - Q1, Q2 MOSFET Vds rating
 - L1 Inductor
+- Supply for the OpAmp (only ratet up to 30V)
